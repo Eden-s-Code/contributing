@@ -2,6 +2,9 @@
 
 Siguiendo estas pautas, podemos trabajar juntos para mejorar y mantener un código de alta calidad.
 
+!!!☢️Codigo que no cumpla con las normas, será rechazado.
+
+
 ## Cómo Contribuir
 
 Sé respetuoso con otros colaboradores.
@@ -36,6 +39,8 @@ Documenta adecuadamente tus cambios.
     ```bash
    git push origin nombre-de-tu-rama
    ```
+
+6. Por ultimo:
 - Crea un Pull Request: Abre un Pull Request desde tu fork a la rama principal del proyecto.
 
 - Revisión del Código: Tu Pull Request será revisado y discutido antes de ser fusionado a la rama principal.
@@ -45,4 +50,12 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
 
 
 ## Ramas que usaremos
+Ejemplos de nombres de ramas siguiendo estas recomendaciones:
 
+### feature/nueva-funcionalidad
+texto
+
+### bugfix/correccion-error-123
+
+hotfix/arreglo-urgente
+task/mejora-documentacion
