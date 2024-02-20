@@ -4,14 +4,14 @@ Siguiendo estas pautas, podemos trabajar juntos para mejorar y mantener un códi
 
 !!!☢️Codigo que no cumpla con las normas, será rechazado.
 
-## Cómo Contribuir
+## Cómo Contribuir ❓
 
 Sé respetuoso con otros colaboradores.
 Mantén la consistencia con el estilo de codificación existente.
 Prueba tu código antes de enviar un Pull Request.
 Documenta adecuadamente tus cambios.
 
-### Pasos
+### Pasos 
 1. **Forkea el Repositorio:** Haz un fork del repositorio a tu cuenta personal y clona tu fork en tu máquina local.
 
    ```bash
@@ -129,7 +129,7 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
    export = {elem1,elem2};
 ```
 
-## Uso de React (Vite js)
+## Uso de React (Vite js) 🖥️
 - Nuestro enfoque al momento de implementar css es a través de "styled-components", asi que uno de nuestros componentes se veria asi.
 - La estructura completa de nuestros proyectos estara en un repositorio
 ### Ejemplo
@@ -159,6 +159,7 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
 
 # Rutas que usaremos 🛣️
 - Considerar que para mayor seguridad algunas rutas estaran en variables de entorno y se recomienda su uso
+- Las rutas pueden variar de proyecto a proyecto
 
 ## GET
 
