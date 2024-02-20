@@ -85,13 +85,11 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
 ### Ejemplo
 ```js
    let estaEsMiVariable = 2;
-   
 ```
-
 
 ## Funciones
 
-### Preferimos esta sintaxis por sobre otras para las funciones
+### Preferimos utilizar esta sintaxis para las funciones, a menos que sea obligatorio emplear la forma tradicional.
 ```js
    let uno = 1;
    let dos = 2;
