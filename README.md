@@ -90,11 +90,10 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
 - Ruta de contacto de los clientes
 
 ### "/productos"
-- asdasd
+- Debe mostrar todos los productos
     #### "/productos/codigo-o-nombre-del-producto"
-        - Ruta asjkd
-  
-### "/aaaa"
+    - Debe mostrar un producto especifico
+
 
 ## POST
 
