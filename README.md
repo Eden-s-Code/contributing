@@ -52,26 +52,26 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
 ## Ramas que usaremos 🌱
 ⚠️recuerda que no nombrar las ramas correctamente es motivo de rechazo del merge
 
-### feature/nueva-funcionalidad 💻
+### "feature/nueva-funcionalidad" 💻
 - "feature/" para nuevas características, seguido de "nueva-funcionalidad", el cual es el nombre de la funcionalidad. Importante separar con guiones medios.
 
-### bugfix/correccion-error-123 ❌
+### "bugfix/correccion-error-123" ❌
 - "bugfix/" para correcciones de errores, seguido de "correccion-error-123", el cual es el nombre del error que se solucionó. Importante separar con guiones medios.
 - Esta rama se debe crear y cuando se solucione el error debe ser eliminada
 
-### hotfix/arreglo-urgente 🔥🛠️
+### "hotfix/arreglo-urgente" 🔥🛠️
 "hotfix/" para arreglos rapidos y urgentes de solucionar, seguido de "arreglo-urgente", el cual es el nombre del error que se solucionó. Importante separar con guiones medios.
 - Esta rama se debe crear y cuando se solucione el error debe ser eliminada
 - Adicionalmente en esta rama se debe realizar un "REBASE" y NO un "MERGE"
   
-### task/mejora-documentacion 📎📓
+### "task/mejora-documentacion" 📎📓
 - "task/" para cambiar la documentacion del proyecto, seguido de "mejora-documentacion", el cual es el nombre de los que se cambio. Importante separar con guiones medios.
 
-### develop 🧑‍💻
+### "develop" 🧑‍💻
 - Esta rama será utilizada como un "main" para el desarrollo
 - Los pull request seran opcionales en esta rama, pero se recomienda su uso
 
-### main 👑
+### "main" 👑
 - Esta es la rama principal del proyecto y la que se usará para realizar el despliegue a producción
 - En esta rama es obligatorio el uso de pull request y los push directos serán bloqueados
 
