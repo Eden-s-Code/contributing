@@ -86,7 +86,7 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
 ### Ejemplo (Evitar) ❌
 ```js
    var esta_es_m_variable = 2;
-   const esta-es-m-variable = 2;
+   const EstaEsMiVariable = 2;
 ```
 
 ### Ejemplo ✅
@@ -129,9 +129,9 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
    export = {elem1,elem2};
 ```
 
-## Uso de React
+## Uso de React (Vite js)
 - Nuestro enfoque al momento de implementar css es a través de "styled-components", asi que uno de nuestros componentes se veria asi.
-
+- La estructura completa de nuestros proyectos estara en un repositorio
 ### Ejemplo
 ```js
    import styled from "styled-components";
