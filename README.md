@@ -81,8 +81,15 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
 ## Declaración de variables
 - Usamos camelCase para nombrar a las variables
 - Evitar cualquier otra forma de nombrar variables
+- Evitar uso de la declaracion var en variables
 
-### Ejemplo
+### Ejemplo (Evitar) ❌
+```js
+   var esta_es_m_variable = 2;
+   const esta-es-m-variable = 2;
+```
+
+### Ejemplo ✅
 ```js
    let estaEsMiVariable = 2;
 ```
