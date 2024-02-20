@@ -4,7 +4,6 @@ Siguiendo estas pautas, podemos trabajar juntos para mejorar y mantener un códi
 
 !!!☢️Codigo que no cumpla con las normas, será rechazado.
 
-
 ## Cómo Contribuir
 
 Sé respetuoso con otros colaboradores.
@@ -75,3 +74,8 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
 ### main
 - Esta es la rama principal del proyecto y la que se usará para realizar el despliegue a producción
 - En esta rama es obligatorio el uso de pull request y los push directos serán bloqueados
+
+
+## Rutas que usaremos
+- XD 1
+- XD 2
