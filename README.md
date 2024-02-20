@@ -76,7 +76,7 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
 - En esta rama es obligatorio el uso de pull request y los push directos serán bloqueados
 
 
-## Rutas que usaremos
+# Rutas que usaremos
 
 ## GET
 
