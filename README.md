@@ -130,8 +130,9 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
 ```
 
 ## Uso de React (Vite js) 🖥️
+- La estructura completa de nuestros proyectos estara en un repositorio.
 - Nuestro enfoque al momento de implementar css es a través de "styled-components", asi que uno de nuestros componentes se veria asi.
-- La estructura completa de nuestros proyectos estara en un repositorio
+
 ### Ejemplo
 ```js
    import styled from "styled-components";
@@ -159,7 +160,7 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
 
 # Rutas que usaremos 🛣️
 - Considerar que para mayor seguridad algunas rutas estaran en variables de entorno y se recomienda su uso
-- Las rutas pueden variar de proyecto a proyecto
+- Las rutas reales pueden variar y dependen de cada proyecto, esto es un ejemplo.
 
 ## GET
 
