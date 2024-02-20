@@ -77,5 +77,15 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
 
 
 ## Rutas que usaremos
-- XD 1
-- XD 2
+
+## GET
+
+### "/" Ruta principal 
+- index de la pagina
+
+### "/sobre-nosotros"
+- Ruta para
+
+### "/contacto"
+
+## POST
