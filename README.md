@@ -95,10 +95,10 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
     - Debe mostrar un producto especifico
 
 
-## POST
+## POST (Todos los retornos son en formato JSON)
 
 ### "/email"
-- Deberia encargarse de los envios de correos
+- Debe encargarse de los envios de correos. Si tiene exito debe devolver true de lo contrario devolver false 
 
-### "/producto"
-- 
+### "/productos"
+- Debe devolver todos los productos 
