@@ -12,6 +12,7 @@ Mantén la consistencia con el estilo de codificación existente.
 Prueba tu código antes de enviar un Pull Request.
 Documenta adecuadamente tus cambios.
 
+### Pasos
 1. **Forkea el Repositorio:** Haz un fork del repositorio a tu cuenta personal y clona tu fork en tu máquina local.
 
    ```bash
