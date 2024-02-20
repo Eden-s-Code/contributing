@@ -1,4 +1,4 @@
-# Contribuciones al Proyecto
+# Contribuciones a Proyectos
 
 Siguiendo estas pautas, podemos trabajar juntos para mejorar y mantener un código de alta calidad.
 
