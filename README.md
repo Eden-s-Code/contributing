@@ -11,27 +11,31 @@ Siguiendo estas pautas, podemos trabajar juntos para mejorar y mantener un códi
    ```
 
 
-## Pautas para Contribuir
-
 Sé respetuoso con otros colaboradores.
 Mantén la consistencia con el estilo de codificación existente.
 Prueba tu código antes de enviar un Pull Request.
 Documenta adecuadamente tus cambios.
 
-- Verifica que exista el archivo .gitignore
 
-Añade los archivos: Utiliza git add.
+
+2. Crea una rama para tus cambios
+   ```bash
+   git checkout -b nombre-de-tu-rama
+   ```
+   
+3. Añade los archivos: Utiliza git add.
 
 ```bash
 git add .
 ```
 
-Haz un Commit: Haz commit de tus cambios de manera descriptiva.
+4. Haz un Commit: Haz commit de tus cambios de manera descriptiva.
 
 ```bash
 git commit -m "Añadida nueva característica"
 ```
 
+5. 
 - Crea un Pull Request: Abre un Pull Request desde tu fork a la rama principal del proyecto.
 
 - Revisión del Código: Tu Pull Request será revisado y discutido antes de ser fusionado.
