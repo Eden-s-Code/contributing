@@ -18,6 +18,14 @@ Mantén la consistencia con el estilo de codificación existente.
 Prueba tu código antes de enviar un Pull Request.
 Documenta adecuadamente tus cambios.
 
+- Verifica que exista el archivo .gitignore
+
+Añade los archivos: Utiliza git add.
+
+```bash
+git add .
+```
+
 Haz un Commit: Haz commit de tus cambios de manera descriptiva.
 
 ```bash
