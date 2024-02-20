@@ -32,10 +32,13 @@ Documenta adecuadamente tus cambios.
    git commit -m "Añadida nueva característica"
    ```
 
-5. 
+5. Hacer un Push: Sube tu rama con los cambios a tu fork.
+    ```bash
+   git push origin nombre-de-tu-rama
+   ```
 - Crea un Pull Request: Abre un Pull Request desde tu fork a la rama principal del proyecto.
 
-- Revisión del Código: Tu Pull Request será revisado y discutido antes de ser fusionado.
+- Revisión del Código: Tu Pull Request será revisado y discutido antes de ser fusionado a la rama principal.
 
 ## Reporte de Problemas
 Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el repositorio.
