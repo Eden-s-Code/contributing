@@ -76,6 +76,18 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
 - En esta rama es obligatorio el uso de pull request y los push directos serán bloqueados
 
 
+#Como usamos javascript
+
+## Funciones
+
+###Preferimos esta sintaxis para las funciones
+```js
+   const miFuncion = async (parametroUno, parametroDos)=>{
+       //aqui va la logica de la funcion
+       console.log("funcionamiento")
+   } 
+```
+
 # Rutas que usaremos 🛣️
 
 ## GET
