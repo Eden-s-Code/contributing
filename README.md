@@ -158,6 +158,7 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
 ```
 
 # Rutas que usaremos 🛣️
+- Considerar que para mayor seguridad algunas rutas estaran en variables de entorno y se recomienda su uso
 
 ## GET
 
