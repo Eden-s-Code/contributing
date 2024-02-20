@@ -24,5 +24,13 @@ Haz un Commit: Haz commit de tus cambios de manera descriptiva.
 git commit -m "Añadida nueva característica"
 ```
 
+- Crea un Pull Request: Abre un Pull Request desde tu fork a la rama principal del proyecto.
+
+- Revisión del Código: Tu Pull Request será revisado y discutido antes de ser fusionado.
+
 ## Reporte de Problemas
 Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el repositorio.
+
+
+## Ramas que usaremos
+
