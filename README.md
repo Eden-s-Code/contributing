@@ -78,14 +78,29 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
 
 # Como usamos javascript 
 
+## Declaración de variables
+- Usamos camelCase para nombrar a las variables
+- Evitar cualquier otra forma de nombrar variables
+
+### Ejemplo
+```js
+   let estaEsMiVariable = 2;
+   
+```
+
+
 ## Funciones
 
-### Preferimos esta sintaxis para las funciones
+### Preferimos esta sintaxis por sobre otras para las funciones
 ```js
+   let uno = 1;
+   let dos = 2;
    const miFuncion = async (parametroUno, parametroDos)=>{
        //aqui va la logica de la funcion
-       console.log("funcionamiento")
-   } 
+       console.log("funcionamiento");
+   }
+
+   miFuncion(uno,dos);
 ```
 
 # Rutas que usaremos 🛣️
