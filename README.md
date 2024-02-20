@@ -113,13 +113,69 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
 ### Preferimos utilizar la sintaxis de ES Modules ✅
 ```js
    import {elem} from './module.js'
-   const elem1 = {
+   const elem1 = async () =>{
    }
 
-   const elem2 = {
+   const elem2 = async () => {
    }
 
    export = {elem1,elem2};
+```
+
+## Uso de React
+- Nuestro enfoque al momento de implementar css es a través de "styled-components", asi que uno de nuestros componentes se veria asi.
+- 
+### Ejemplo
+```js
+   import styled from "styled-components";
+   import axios from "axios";
+   import { useState } from "react";
+
+   const Form = styled.form`
+   display: flex;
+   flex-direction: column;
+   padding: 1rem;
+   background-color: aqua;
+   `;
+
+
+   function PayForm() {
+       const [name, setName] = useState("");
+       const [email, setEmail] = useState("");
+       
+    return (
+        <>
+            <Form onSubmit={Enviar}>
+                <label htmlFor="Usuario">Usuario</label>
+                <input
+                    id="Usuario"
+                    type="text"
+                    placeholder="Nombre de usuario"
+                    name="name"
+                    onChange={(e) => {
+                        setName(e.target.value);
+                    }}
+                />
+
+                <label htmlFor="Correo">Correo</label>
+                <input
+                    id="Correo"
+                    type="email"
+                    placeholder="Correo"
+                    name="email"
+                    onChange={(e) => {
+                        setEmail(e.target.value);
+                    }}
+                />
+
+                <input type="submit" value="Inscribirse" />
+            </Form>
+        </>
+    );
+}
+
+export default PayForm;
+
 ```
 
 # Rutas que usaremos 🛣️
