@@ -91,7 +91,7 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
 
 ### "/productos"
 - asdasd
-  #### "/productos/codigo-o-nombre-del-producto"
+#### "/productos/codigo-o-nombre-del-producto"
   
 
 
