@@ -25,15 +25,15 @@ Documenta adecuadamente tus cambios.
    
 3. Añade los archivos: Utiliza git add.
 
-```bash
-git add .
-```
+   ```bash
+   git add .
+   ```
 
 4. Haz un Commit: Haz commit de tus cambios de manera descriptiva.
 
-```bash
-git commit -m "Añadida nueva característica"
-```
+   ```bash
+   git commit -m "Añadida nueva característica"
+   ```
 
 5. 
 - Crea un Pull Request: Abre un Pull Request desde tu fork a la rama principal del proyecto.
