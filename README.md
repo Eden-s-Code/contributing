@@ -80,12 +80,25 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
 
 ## GET
 
-### "/" Ruta principal 
-- index de la pagina
+### "/" (Ruta principal)
+- Index de la pagina
 
 ### "/sobre-nosotros"
-- Ruta para
+- Ruta para la información de los clientes
 
 ### "/contacto"
+- Ruta de contacto de los clientes
+
+### "/productos"
+- asdasd
+  #### "/productos/codigo-o-nombre-del-producto"
+  
+
 
 ## POST
+
+### "/email"
+- Deberia encargarse de los envios de correos
+
+### "/producto"
+- 
