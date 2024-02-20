@@ -55,7 +55,7 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
 ### feature/nueva-funcionalidad 💻
 - "feature/" para nuevas características, seguido de "nueva-funcionalidad", el cual es el nombre de la funcionalidad. Importante separar con guiones medios.
 
-### bugfix/correccion-error-123 ✖️
+### bugfix/correccion-error-123 ❌
 - "bugfix/" para correcciones de errores, seguido de "correccion-error-123", el cual es el nombre del error que se solucionó. Importante separar con guiones medios.
 - Esta rama se debe crear y cuando se solucione el error debe ser eliminada
 
@@ -99,6 +99,27 @@ Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el
    }
 
    miFuncion(uno,dos);
+```
+
+## Importación de librerias (ES6)
+
+### Evitar commonJs ❌
+```js
+   const elem = require('module');
+   module.exports = {
+   };
+```
+
+### Preferimos utilizar la sintaxis de ES Modules ✅
+```js
+   import {elem} from './module.js'
+   const elem1 = {
+   }
+
+   const elem2 = {
+   }
+
+   export = {elem1,elem2};
 ```
 
 # Rutas que usaremos 🛣️
