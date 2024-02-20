@@ -4,19 +4,16 @@ Siguiendo estas pautas, podemos trabajar juntos para mejorar y mantener un códi
 
 ## Cómo Contribuir
 
-1. **Forkea el Repositorio:** Haz un fork del repositorio a tu cuenta personal y clona tu fork en tu máquina local.
-
-   ```bash
-   git clone https://github.com/tuusuario/tuproyecto.git
-   ```
-
-
 Sé respetuoso con otros colaboradores.
 Mantén la consistencia con el estilo de codificación existente.
 Prueba tu código antes de enviar un Pull Request.
 Documenta adecuadamente tus cambios.
 
+1. **Forkea el Repositorio:** Haz un fork del repositorio a tu cuenta personal y clona tu fork en tu máquina local.
 
+   ```bash
+   git clone https://github.com/tuusuario/tuproyecto.git
+   ```
 
 2. Crea una rama para tus cambios
    ```bash
