@@ -34,13 +34,28 @@ Documenta adecuadamente tus cambios.
    ```bash
    git commit -m "Añadida nueva característica"
    ```
-
-5. Hacer un Push: Sube tu rama con los cambios a tu fork.
+   
+6. Hacer un Push de tu rama: Sube tu rama al repositorio
+    ```bash
+   git push -u origin nombre-de-tu-rama
+   ```
+    
+7. Hacer un Push: Sube tu rama con los cambios a tu fork.
     ```bash
    git push origin nombre-de-tu-rama
    ```
+8. Si quieres eliminar una rama: sigue estos pasos.
 
-6. Por ultimo:
+- primero cambiate de rama, ejecuta:
+  ```bash
+   git checkout nombre_de_otra_rama
+   ```
+- segundo luego ejecuta:
+  ```bash
+   git branch -D nombre_de_la_rama_que_quieres_eliminar
+   ```
+    
+9. Por ultimo:
 - Crea un Pull Request: Abre un Pull Request desde tu fork a la rama principal del proyecto.
 
 - Revisión del Código: Tu Pull Request será revisado y discutido antes de ser fusionado a la rama principal.
