@@ -11,7 +11,7 @@ Mantén la consistencia con el estilo de codificación existente.
 Prueba tu código antes de enviar un Pull Request.
 Documenta adecuadamente tus cambios.
 
-### Pasos 
+### Pasos 🔎
 1. **Forkea el Repositorio:** Haz un fork del repositorio a tu cuenta personal y clona tu fork en tu máquina local.
 
    ```bash
@@ -71,11 +71,15 @@ Documenta adecuadamente tus cambios.
    ```
   
 - Con este procedimiento, la rama se creará localmente y se establecerá un vinculo con la rama del repositorio.
+  
+## Antes de enviar tu codigo (⚠️Importante)
 
 10. Por ultimo:
 - Crea un Pull Request: Abre un Pull Request desde tu fork a la rama principal del proyecto.
 
 - Revisión del Código: Tu Pull Request será revisado y discutido antes de ser fusionado a la rama principal.
+
+- Recuerda asignar quien debe revisar tu código.
 
 ## Reporte de Problemas ⚙️
 Si encuentras un problema o tienes una sugerencia, por favor crea un issue en el repositorio.
