@@ -44,25 +44,32 @@ Documenta adecuadamente tus cambios.
     ```bash
    git push origin nombre-de-tu-rama
    ```
-8. Si quieres eliminar una rama: sigue estos pasos.
+## Pasos opcionales (Eliminar, Añadir nuevas ramas)
+
+### 8. Si quieres eliminar una rama: sigue estos pasos.
 
 - primero cambiate de rama, ejecuta:
+  
   ```bash
    git checkout nombre_de_otra_rama
    ```
-- segundo luego ejecuta:
+- luego ejecuta:
+  
   ```bash
    git branch -D nombre_de_la_rama_que_quieres_eliminar
    ```
-9. Si deseas descargar una rama que se creó después de que descargaste el repositorio, sigue estos pasos:
+### 9. Si deseas descargar una rama que se creó después de que descargaste el repositorio, sigue estos pasos:
 - primero cambiate de rama, ejecuta:
+  
   ```bash
    git checkout nombre_de_otra_rama
    ```
-- segundo luego ejecuta:
+- luego ejecuta:
+  
   ```bash
    git checkout -b nombre_de_la_nueva_rama origin/nombre_de_la_nueva_rama
    ```
+  
 - Con este procedimiento, la rama se creará localmente y se establecerá un vinculo con la rama del repositorio.
 
 10. Por ultimo:
