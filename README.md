@@ -15,7 +15,7 @@ Documenta adecuadamente tus cambios.
 1. **Forkea el Repositorio:** Haz un fork del repositorio a tu cuenta personal y clona tu fork en tu máquina local.
 
    ```bash
-   git clone https://github.com/tuusuario/tuproyecto.git
+   git clone https://github.com/tuusuario/tuproyecto.git .
    ```
 
 2. Crea una rama para tus cambios
@@ -54,8 +54,18 @@ Documenta adecuadamente tus cambios.
   ```bash
    git branch -D nombre_de_la_rama_que_quieres_eliminar
    ```
-    
-9. Por ultimo:
+9. Si deseas descargar una rama que se creó después de que descargaste el repositorio, sigue estos pasos:
+- primero cambiate de rama, ejecuta:
+  ```bash
+   git checkout nombre_de_otra_rama
+   ```
+- segundo luego ejecuta:
+  ```bash
+   git checkout -b nombre_de_la_nueva_rama origin/nombre_de_la_nueva_rama
+   ```
+- Con este procedimiento, la rama se creará localmente y se establecerá un vinculo con la rama del repositorio.
+
+10. Por ultimo:
 - Crea un Pull Request: Abre un Pull Request desde tu fork a la rama principal del proyecto.
 
 - Revisión del Código: Tu Pull Request será revisado y discutido antes de ser fusionado a la rama principal.
